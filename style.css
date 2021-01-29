@@ -1,0 +1,138 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #ecf0f1;
+}
+
+.Content {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.ImgHolder {
+    margin-top: 10%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #2c3e50;
+    border-radius: 1000px;
+    -webkit-box-shadow: 6px 6px 19px 6px rgba(214,214,214,0.77);
+    -moz-box-shadow: 6px 6px 19px 6px rgba(214,214,214,0.77);
+    box-shadow: 6px 6px 19px 6px rgba(214,214,214,0.77);
+}
+
+.NameAndTagHolder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Footer {
+    margin-top: 20px;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.BoxHolder {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.Box {
+    border-radius: 5px;
+    border: 2px solid #2c3e50;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 20px 10px 0px 10px;
+    color: #2c3e50;    
+    -webkit-box-shadow: 3px 3px 10px 2px rgba(214,214,214,0.77);
+    -moz-box-shadow: 3px 3px 10px 2px rgb(214, 214, 214);
+    box-shadow: 3px 3px 10px 2px rgba(214,214,214,0.77);
+
+}
+
+.Box a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.flat1 {
+    background-color: #1abc9c;
+}
+
+.flat2 {
+    background-color: #2ecc71;
+}
+
+.flat3 {
+    background-color: #3498db;
+}
+
+.flat4 {
+    background-color: #9b59b6;
+}
+
+.flat5 {
+    background-color: #f1c40f;
+}
+
+.flat6 {
+    background-color: #e67e22;
+}
+
+.flat7 {
+    background-color: #e74c3c;
+}
+
+@media only screen and (min-width: 768px) {
+
+
+    .NameHolder {
+        font-size: 5rem;
+        padding-bottom: 10px;
+        color: #2c3e50;
+    }
+    
+    .TagHolder {
+        color: #34495e;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    
+    .Footer {
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .NameHolder {
+        font-size: 4rem;
+        padding-bottom: 10px;
+        color: #2c3e50;
+    }
+    
+    .TagHolder {
+        overflow-wrap: break-word;     /* Renamed property in CSS3 draft spec */
+        color: #34495e;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .Footer {
+        overflow-wrap: break-word;     /* Renamed property in CSS3 draft spec */
+        font-weight: 400;
+        font-size: 1rem;
+    }
+}
+  
