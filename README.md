@@ -1,3 +1,3 @@
 ## Website
 
-https://gagan.io
+https://jyot.dev
